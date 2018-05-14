@@ -1,0 +1,424 @@
+@charset "utf-8";
+/*常用颜色*/
+.col-pri{color: #00a0e9}
+.bg-pri{background: #00a0e9}
+.bg-f2{background: #f2f2f2}
+.bg-f8{background: #f8f8f8}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.bor-b-dashed{border-bottom:1px dashed #448aca}
+.h-182{
+	height:182px;
+}
+
+/*注册*/
+#register{
+	width: 435px;
+	margin: 50px auto 100px;
+}
+.reg-form-l{
+	width:125px;
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+	font-size: 18px;
+}
+.reg-form-r{
+	width: 310px;
+}
+.reg-form-r .tel{
+	padding: 5px;
+}
+.code-input{
+	width: 150px;
+	padding: 5px;
+}
+.code-btn{
+	width: 150px;
+}
+.reg .needed{
+	background: url(../../img/reg/icon7.png) 97% center no-repeat;
+}
+.reg .ipt-text{
+	font-size: 16px;
+	height: 50px;
+	border-radius: 5px;
+	outline: none;
+	padding: 8px 24px 8px 10px;
+}
+.reg .get-code{
+	padding: 5px;
+	color: white;
+	border: none !important;
+	background: #00baff;
+}
+.reg .get-code-again{
+	padding: 5px;
+	color: #848080;
+	background: #e6dfdf;
+	border: none !important;
+}
+.reg-code-img{
+	margin-right: 5px;
+	width: 120px;
+	height: 45px;
+}
+.code-img{
+	width:160px;
+	height: 45px;
+}
+.reg .img-code{
+	width: 120px;
+}
+.change-code{
+	line-height: 25px;
+}
+.reg-form .checkbox{
+	padding-left: 27px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #404040;
+    cursor: pointer;
+    left: 28%;
+    font-weight: normal;
+}
+.reg-form .checkbox i {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: block;
+    width: 17px;
+    height: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.reg-form .checkbox input:checked+i{
+    border-color: #2da5da;
+    -webkit-transition: opacity .1s;
+}
+.reg-form input::-webkit-input-placeholder { /* WebKit browsers */
+	color:#999;font-size:14px;
+}
+.reg-form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:#999;font-size:14px;
+}
+.reg-form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:#999;font-size:14px;
+}
+.reg-form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:#999;font-size:14px;
+}
+/*.reg-form .checkbox input+i:after {
+	position: absolute;
+	opacity: 0;
+    content: '\f00c';
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    font: normal 12px/16px FontAwesome;
+    font-family: FontAwesome;
+    text-align: center;
+}*/
+.reg-form .checkbox input:checked+i:after{
+    opacity: 1;
+}
+.reg-form .sub{
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #00a0e9;
+
+}
+@media screen and (max-width: 767px){
+	#register{
+		width: 100%;
+	}
+	.reg form{
+		width:100%;
+		padding: 0 10px;
+	}
+	.reg-form-l{
+		width:95px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 13px;
+	}
+	.reg-form-r{
+		width: 264px;
+	}
+	.reg .ipt-text{
+		font-size: 14px;
+		height: 35px;
+	}
+	.code-btn{
+		width: 104px;
+	}
+	.reg .code-img{
+		width:70px;
+		height: 35px;
+	}
+	.change-code{
+		line-height: 17px;
+		font-size: 12px;
+	}
+	
+	.reg-form .checkbox{
+		padding-left: 27px;
+	    font-size: 15px;
+	    line-height: 27px;
+	    color: #404040;
+	    cursor: pointer;
+	    left: 6%;
+	    font-weight: normal;
+	}
+	.reg-code-img{
+	    margin-right: 5px;
+    	width: 91px;
+    	height: 33px;
+	}
+}
+/*登录*/
+.login-con{
+	/*min-height: 688px;*/
+	padding-bottom: 188px;
+	background: url(../../img/reg/login-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.login-con-l{
+	margin-top: 65px;
+	padding: 90px ;
+}
+.login-con-l .text1{
+	margin: 55px 0 0 90px;
+}
+.login-con-r{
+	padding: 90px 0;
+}
+.login-form{
+	position: relative;
+	width: 360px;
+	margin: 0 auto;
+	padding: 28px 18px;
+	background: #fff;
+}
+.login-code-img{
+	width: 160px;
+	height: 45px;
+}
+.login-form .ipt-text{
+	height: 45px;
+	border-radius: 5px;
+	outline: none;
+	padding: 8px 10px 8px 60px;
+	font-weight: normal;
+}
+.login-form .name{
+	background: url(../../img/reg/icon8.png) #f1f1f1 12px center no-repeat;
+}
+.login-form .icon{
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 43px;
+	height: 43px;
+	border-radius: 5px 0 0 5px;
+}
+.login-form .password{
+	background: url(../../img/reg/icon9.png) #f1f1f1 12px center no-repeat;
+}
+.login .checkbox input[type=checkbox]{
+	margin-left: 0;
+}
+.login-form .checkbox i {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    display: block;
+    width: 17px;
+    height: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.login-form .checkbox input:checked+i{
+    border-color: #2da5da;
+    -webkit-transition: opacity .1s;
+    overflow: hidden;
+}
+.login-form .checkbox input+i:after ,.reg-form .checkbox input+i:after{
+	position: absolute;
+	opacity: 0;
+    content: ' ';
+    top: -1px;
+    left: 4px;
+    width: 7px;
+    height: 12px;
+    border: 2px solid #00AFEC;
+    border-left:transparent;
+    border-top: transparent;
+    transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg); 	/* Opera */
+    font: normal 12px/16px FontAwesome;
+    text-align: center;
+}
+.login-form .checkbox input:checked+i:after{
+    opacity: 1;
+}
+.login-form .code{
+	padding:8px 15px;
+}
+.login-form .login-btn{
+	font-size: 18px;
+	padding: 8px 0;
+	text-align: center;
+	color: white;
+	border: 1px solid #00a0e9;
+	width: 100%;
+	border-radius: 5px;
+}
+@media screen and (max-width: 767px){
+	.login-con{
+		padding-bottom: 140px;
+
+	}
+	.login-con-r {
+	    padding: 20px 0;
+	}
+}
+.mobile-login .get-code, .mobile-login .get-code-again{
+    color: #fff;
+    border: none;
+    width: 130px;
+    padding: 8px 0;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+}
+.login-switch{
+	position: absolute;
+	top: 10px;
+	right: 10px
+}
+.mobile, .pc{
+	display: inline-block;
+	width: 23px;
+	height: 35px;
+	background: url(/static/img/reg/icon14.jpg) no-repeat;
+	vertical-align: top;
+}
+.pc{
+	width: 30px;
+	height: 30px;
+	background: url(/static/img/reg/icon12.jpg) no-repeat;
+}
+.mob-tip{
+	display: inline-block;
+	margin-right: 15px;
+	color: #80d0f1;
+	padding: 2px 20px;
+	background: url(/static/img/reg/icon13.png) no-repeat;
+	background-size: 100% 100%;
+}
+.mobile-login .get-code-again{
+	color: #848080;
+    background: #e6dfdf;
+}
+/*重置密码*/
+.reset .form-out,.forget .form-out{
+	background: url(/static/img/reg/reset-bg.jpg) repeat-x;
+	background-size: auto 100%;
+	padding:62px 0 270px;
+}
+.reset-form,.forget-form{
+	width: 500px;
+	box-shadow: 3px 3px 16px 1px #93c0d9;
+	padding: 22px 38px 52px 38px;
+	margin: 0 auto;
+	background: #fff;
+}
+.reset-form .tit,.forget-form .tit{
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+.reset-form .ipt-text,.forget-form .ipt-text{
+	height: 50px;
+	border-radius: 5px;
+	outline: none;
+	padding: 8px 10px 8px 60px;
+	font-weight: normal;
+}
+.reset-form .icon,.forget-form .icon{
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 48px;
+	height: 48px;
+	border-radius: 5px 0 0 5px;
+}
+.forget-form .get-code{
+	color: #fff;
+	border: none;
+	padding: 8px 40px;
+}
+.forget-form .get-code-again{
+	padding: 8px 30px;
+	/*padding: 5px;*/
+	color: #848080;
+	background: #e6dfdf;
+	border: none !important;
+}
+.reset-form .password,.forget-form .password{
+	background: url(../../img/reg/icon9.png) #f1f1f1 13px center no-repeat;
+}
+.reset-form .login-btn,.forget-form .login-btn{
+	margin-top: 36px;
+	padding: 8px 0;
+	text-align: center;
+	color: white;
+	border: 1px solid #00a0e9;
+	width: 100%;
+	border-radius: 5px;
+	height: 50px;
+}
+.forget-form{
+	padding: 22px 38px 22px 38px;
+}
+.forget-form .name{
+	background: url(../../img/reg/icon8.png) #f1f1f1 13px center no-repeat;
+}
+.forget-form .code{
+	background: url(../../img/reg/icon10.png) #f1f1f1 13px center no-repeat;
+}
+.forget-form .change-code{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+.forget-form .hint{
+	padding-left: 25px;
+	background: url(../../img/reg/icon11.png) left center no-repeat;
+}
+.forget-form .login-btn{
+	margin-top: 25px;
+}
+@media screen and (max-width: 767px){
+	.reset-form,.forget-form {
+		width:90%;
+	    padding: 20px 10px 30px 10px;
+	    margin: 0 auto;
+	    background: #fff;
+	}
+}
+.way .el-radio__label{
+	font-size: 16px;
+}
